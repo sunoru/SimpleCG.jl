@@ -38,10 +38,6 @@ function ∩(ray::Ray3, ug::UnionGeometry)
             result = tmp
         end
     end
-    # if !hit(result)
-    #     return result
-    # end
-    # Nullable(replace_geometry(result.value, ug))
     result
 end
 
